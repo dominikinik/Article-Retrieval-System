@@ -1,4 +1,4 @@
-# ArticleSearch Class
+## ArticleSearch Class
 
 ## Overview
 The `ArticleSearch` class provides functionality to search for articles based on a given query using TF-IDF similarity scoring and retrieval of relevant documents. It preprocesses the data, calculates similarity scores, and retrieves the best-matching articles.

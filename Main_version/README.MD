@@ -11,9 +11,9 @@ def __init__(self, model_name, query, first_chunker_size=5000, second_chunker_si
 
 -query: Query string for article search.
 
--first_chunker_size: Size of the first chunker (default: 2000).
+-first_chunker_size: Size of the first chunker (default: 5000).
 
--second_chunker_size: Size of the second chunker (default: 400).
+-second_chunker_size: Size of the second chunker (default: 1000).
 
 -device: Device to run the model on (default: 'cuda').
 

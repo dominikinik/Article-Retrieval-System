@@ -20,4 +20,5 @@ analyzer.analyze_data(query, data)
 -scikit-learn
 -langchain (installable via pip install langchain)
 -pandas
+
 installation !pip install -U chromadb langchain  rank_bm25 sentence_transformers

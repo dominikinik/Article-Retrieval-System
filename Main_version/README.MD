@@ -20,7 +20,7 @@ def __init__(self, model_name, query, first_chunker_size=5000, second_chunker_si
 -stop_words: Language-specific stop words (default: 'english').
 
 -alfa: percentage of taken articles from the accuracy of the most suitable article and taking them for further selection(default: 0.5).
--
+
 ## Example Usage
 model_name = "BAAI/bge-small-en-v1.5"
 query = "humans evolution " #query to search

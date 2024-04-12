@@ -36,9 +36,15 @@ print(article_content)
 
 ## Dependencies
 -pandas
+
 -numpy
+
 -scikit-learn
+
 -transformers
+
 -vectorhub
+
 -langchain
+
 installation !pip install -U chromadb langchain  rank_bm25 sentence_transformers

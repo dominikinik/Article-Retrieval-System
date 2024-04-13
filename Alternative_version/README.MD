@@ -3,7 +3,7 @@ This Python script analyzes textual data using techniques such as TF-IDF vectori
 
 ## Initialization
 ```python
-def __init__(self,chunk_size=200, stop_words='english', alfa=0.5)
+    def __init__(self, chunk_size: int = 200, stop_words: str = 'english', alfa: float = 0.5):
 ```
 -chunk_size: Size of the chunker (default: 200).
 -stop_words: Language-specific stop words (default: 'english').

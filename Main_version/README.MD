@@ -5,7 +5,7 @@ The `ArticleSearch` class provides functionality to search for articles based on
 
 ## Initialization
 ```python
-def __init__(self, model_name, query, first_chunker_size=5000, second_chunker_size=1000, device='cuda', stop_words='english',alfa = 0.5):
+    def __init__(self, model_name: str, query: str, first_chanker_size: int = 5000, secount_chanker_size: int = 1000, device: str = 'cuda', stop_words: str = 'english', alfa: float = 0.5):
 ```
 -model_name: Name of the model used for embeddings.
 
